@@ -1,6 +1,7 @@
 import { Metadata } from "next";
-import SolutionsGrid from "./_components/waterquest/solutions-grid";
-import SolutionsHeroSection from "./_components/waterquest/solutions-hero-section";
+import SolutionsHeroSection from "./_components/solutions-hero-section";
+import SolutionsGrid from "./_components/solutions-grid";
+
 
 export const metadata: Metadata = {
   title: "Waterquest | Empowering Sustainable Water Solutions",
