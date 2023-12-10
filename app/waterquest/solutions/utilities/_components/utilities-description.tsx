@@ -11,16 +11,16 @@ const UtilitiesDescription = () => {
             </h2>
             <p className="text-slate-800 text-sm md:text-md lg:text-lg leading-6 mt-5">
               If your business caters to supplying water to businesses and
-              communities, it's crucial to unearth financially viable solutions.
-              Solar power water pumps enable you to fulfill your delivery
-              commitments while decreasing your operating expenses.
+              communities, it&apos;s crucial to unearth financially viable
+              solutions. Solar power water pumps enable you to fulfill your
+              delivery commitments while decreasing your operating expenses.
             </p>
             <p className="text-slate-800 text-sm md:text-md lg:text-lg leading-6 py-3">
               Government mandates often dictate water supply without factoring
-              in the cost on the provider's part. Your clientele's payment
-              capacity is limited, and you might be operating under strict price
-              regulations. In evolving markets, the cost of pumping water can
-              outstrip the price you can set for it.
+              in the cost on the provider&apos;s part. Your clientele&apos;s
+              payment capacity is limited, and you might be operating under
+              strict price regulations. In evolving markets, the cost of pumping
+              water can outstrip the price you can set for it.
             </p>
             <p className="text-slate-800 text-sm md:text-md lg:text-lg leading-6">
               Solar-powered water pumping systems can provide the answer to the

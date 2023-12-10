@@ -35,7 +35,7 @@ const ApplicationsGrid = () => {
               in rural or remote areas. They harness solar energy to extract
               water from wells, rivers, or other bodies and distribute it over
               agricultural land. This ensures a consistent, sustainable water
-              supply crucial for healthy crop growth. It's a cost-effective,
+              supply crucial for healthy crop growth. It&apos;s a cost-effective,
               eco-friendly solution that reduces dependence on grid electricity
               and fossil fuels.
             </p>

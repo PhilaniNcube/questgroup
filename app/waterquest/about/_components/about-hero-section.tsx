@@ -20,7 +20,7 @@ const AboutHeroSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <p className="text-sm md:text-md lg:text-lg text-slate-500">
               Waterquest: Leader in Sustainable Water Solutions and Solar
-              Pumping for Southern Africa's Residential and Agricultural Needs
+              Pumping for Southern Africa&apos;s Residential and Agricultural Needs
             </p>
             <div>
              <Image src="/images/approved-partner.png" width={1866} height={470} alt="Approved Seller" className="w-full object-cover" />

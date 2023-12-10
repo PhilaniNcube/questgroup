@@ -29,10 +29,10 @@ const SolutionsGrid = () => {
             <h3 className="text-xl font-medium">Community</h3>
             <p className="text-sm mb-2">
               We understand the crucial role water plays in the community, from
-              drinking, irrigation, to hygiene. That’s why we’ve developed
-              durable, powerful solar pump systems to meet any community size or
-              need. Our community solar water pumps will sustainably provide
-              enough water to fuel growth and development.
+              drinking, irrigation, to hygiene. That&apos;s why we&apos;ve
+              developed durable, powerful solar pump systems to meet any
+              community size or need. Our community solar water pumps will
+              sustainably provide enough water to fuel growth and development.
             </p>
             <Link href="/waterquest/solutions/community">
               <Button type="button">Read More</Button>
@@ -42,11 +42,11 @@ const SolutionsGrid = () => {
             <h3 className="text-xl font-medium">Utilities</h3>
             <p className="text-sm mb-2">
               Optimize your utility operations by integrating our solar water
-              pump solutions. Whether it's for wastewater management, irrigation
-              or public water supply, our solar pumps can handle it all. Our
-              systems ensure consistent water supply, reduce operation costs and
-              cut down CO2 emissions, providing economic and ecological
-              benefits.
+              pump solutions. Whether it&apos;s for wastewater management,
+              irrigation or public water supply, our solar pumps can handle it
+              all. Our systems ensure consistent water supply, reduce operation
+              costs and cut down CO2 emissions, providing economic and
+              ecological benefits.
             </p>
             <Link href="/waterquest/solutions/utilities">
               <Button type="button">Read More</Button>
