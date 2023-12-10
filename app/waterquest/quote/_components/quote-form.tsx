@@ -24,7 +24,7 @@ export default function QuoteForm() {
         <div className="space-y-2">
           <h1 className="text-3xl text-blue-500 font-bold">Request a Quote</h1>
           <p className="text-gray-500 dark:text-gray-400">
-            Fill out the form below and we'll get back to you with a quote as
+            Fill out the form below and we&apos;ll get back to you with a quote as
             soon as possible.
           </p>
         </div>
