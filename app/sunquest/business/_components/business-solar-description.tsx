@@ -5,7 +5,7 @@ const BusinessSolarDescription = () => {
   return (
     <section className="container py-10">
       <div className="w-full overflow-clip">
-        <div className="grid grid-cols-2 relative">
+        <div className="grid grid-cols-2 relative shadow-lg rounded-lg overflow-clip">
           <div className="absolute inset-0 z-0 flex">
             <Image
               src="/images/battery-wall.webp"
@@ -15,30 +15,38 @@ const BusinessSolarDescription = () => {
               className="w-full object-cover rounded-lg shadow-md object-center "
             />
           </div>
-          <div className="col-span-2 lg:col-span-1 p-8 relative bg-gradient-to-br from-white via-white to-white/30">
+          <div className="col-span-2 lg:col-span-1 p-8 relative bg-gradient-to-br from-slate-200 via-slate-100 to-white/30">
             <h2 className="text-3xl font-semibold">
-              Start small, grow on demand
+              Commercial and Industrial Energy Storage Solutions
             </h2>
             <p className="text-md leading-6 mt-4">
-              We use Sigenergy products in order to provide solar installations
-              that can grow as you needs for energy increase. Start with a small
-              package and then add more battery units for more storage capacity
-              as & when needed.
+              Sigenergy&apos;s powerful Commercial & Industrial energy solution
+              can work with or without the grid. From small commercial to large
+              industrial scale businesses, SigenStor can flexibly meet your
+              power needs. Simple, reliable, and configurable, it will
+              seamlessly power your business to a more profitable and
+              sustainable future.
             </p>
             <p className="text-md leading-6 mt-4">
-              The modular 5-in-One modular design integrates Solar Inverter, EV
-              DC Charger, Battery PCS, Battery Packs and EMS into one
-              intelligent home energy system.
+              Furthermore, SigenStor&apos;s commitment to sustainability goes
+              beyond its clean energy generation. The system is designed with
+              eco-friendly materials and manufacturing processes, minimizing its
+              environmental impact throughout its lifecycle. Additionally,
+              SigenStor can be integrated with renewable energy sources like
+              solar and wind, allowing businesses to further reduce their
+              reliance on fossil fuels and achieve true energy independence. By
+              choosing SigenStor, you&apos;re not just powering your business,
+              you&apos;re investing in a cleaner, greener future for everyone.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-4">
-              <Card className="bg-teal-600 text-white">
+              <Card className="bg-teal-600 text-white w-fit">
                 <CardHeader>
-                  <CardTitle>Single Phase</CardTitle>
+                  <CardTitle>On-Grid</CardTitle>
                 </CardHeader>
               </Card>
-              <Card className="bg-teal-600 text-white">
+              <Card className="bg-teal-600 text-white w-fit">
                 <CardHeader>
-                  <CardTitle>Three Phase</CardTitle>
+                  <CardTitle>Off-Grid</CardTitle>
                 </CardHeader>
               </Card>
             </div>
