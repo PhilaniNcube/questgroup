@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HomeHero = () => {
   return (
-    <section className="container">
+    <section className="container relative">
       <div className="w-full flex justify-center items-center py-12 px-10 ">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[6rem] font-semibold md:font-bold text-center">
           Experience the Benefits of Solar Energy
