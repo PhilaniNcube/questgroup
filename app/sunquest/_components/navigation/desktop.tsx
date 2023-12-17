@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -8,7 +9,7 @@ const DesktopNavigation = () => {
       <div className="container flex justify-between text-white py-3">
         <div className="flex items-center">
           <Link href="/" className="text-lg font-medium">
-            SunQuest
+            <Image src="/images/sunquest-logo.png" alt="Sunquest" width={4500} height={947} className="w-48 object-cover" />
           </Link>
         </div>
         <div className="flex items-center space-x-4">

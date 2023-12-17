@@ -5,6 +5,12 @@ import { forwardRef } from "react";
 
 let solutions = [
   {
+    title: "Agriculture",
+    description:
+      "We provide water solutions for agricultural purposes. Including irrigation and livestock water solutions",
+    href: "/waterquest/solutions/agriculture",
+  },
+  {
     title: "Residential",
     description:
       "We provide water solutions for residential water sources like pools, boreholes, and wellpoints.",
