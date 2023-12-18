@@ -38,7 +38,7 @@ const HomeSolarProducts = () => {
             </h2>
             <p className="text-md leading-6 mt-4">{controller.description}</p>
             <p className="text-md leading-6 mt-4">{controller.sizes}</p>
-            <div className="flex justify-between mt-4">
+            <div className="flex justify-between flex-col md:flex-row gap-4 mt-4">
               <div className="w-full">
                 <h3 className="font-semibold text-lg">Functions</h3>
                 <ul className="list-disc list-inside text-sm flex flex-col gap-y-3 pl-4">
