@@ -32,7 +32,7 @@ const HomeSolarProducts = () => {
     <section className="py-8">
       <div className="container">
         <div className="grid grid-cols-5 gap-4 lg:gap-10">
-          <div className="text-teal-800 col-span-5 md:col-span-4 lg:col-span-3 p-8 shadow-lg rounded-lg bg-gradient-to-b from-slate-200 to-slate-300">
+          <div className="text-slate-800 col-span-5 md:col-span-4 lg:col-span-3 p-8 shadow-lg rounded-lg bg-gradient-to-b from-slate-200 to-slate-300">
             <h2 className="font-bold text-2xl lg:text-3xl">
               {controller.title}
             </h2>
@@ -58,7 +58,7 @@ const HomeSolarProducts = () => {
             </div>
           </div>
 
-          <div className="col-span-5 md:col-span-1 lg:col-span-2 h-full flex justify-center bg-teal-600 rounded-lg shadow-md p-5">
+          <div className="col-span-5 md:col-span-1 lg:col-span-2 h-full flex justify-center bg-brand rounded-lg shadow-md p-5">
             <Image src="/images/left.png" alt="Sigen Energy Controller" width={3375} height={6000} className="w-1/2 object-cover" />
           </div>
         </div>

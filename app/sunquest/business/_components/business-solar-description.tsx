@@ -39,12 +39,12 @@ const BusinessSolarDescription = () => {
               you&apos;re investing in a cleaner, greener future for everyone.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-4">
-              <Card className="bg-teal-600 text-white w-fit">
+              <Card className="bg-brand text-white w-fit">
                 <CardHeader>
                   <CardTitle>On-Grid</CardTitle>
                 </CardHeader>
               </Card>
-              <Card className="bg-teal-600 text-white w-fit">
+              <Card className="bg-brand text-white w-fit">
                 <CardHeader>
                   <CardTitle>Off-Grid</CardTitle>
                 </CardHeader>

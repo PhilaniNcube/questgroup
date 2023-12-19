@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const HomeSolarHero = () => {
   return (
-    <div className="bg-teal-700 grid grid-cols-1 lg:grid-cols-2 min-h-[40vh] max-h-[45vh] relative">
-      <div className="absolute inset-0 bg-teal-700/70 lg:bg-teal-700/0">
+    <div className="bg-brand grid grid-cols-1 lg:grid-cols-2 min-h-[40vh] max-h-[45vh] relative">
+      <div className="absolute inset-0 bg-brand/70 lg:bg-brand/0">
         <div className="container h-full grid grid-cols-1 lg:grid-cols-2">
           <div className="flex flex-col justify-center h-full pr-10">
             <h1 className="text-white text-3xl lg:text-5xl font-bold">

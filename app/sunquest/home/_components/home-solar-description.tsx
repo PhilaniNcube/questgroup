@@ -31,12 +31,12 @@ const HomeSolarDescription = () => {
               intelligent home energy system.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-4">
-              <Card className="bg-teal-600 text-white">
+              <Card className="bg-brand text-white">
                 <CardHeader>
                   <CardTitle>Single Phase</CardTitle>
                 </CardHeader>
               </Card>
-              <Card className="bg-teal-600 text-white">
+              <Card className="bg-brand text-white">
                 <CardHeader>
                   <CardTitle>Three Phase</CardTitle>
                 </CardHeader>
