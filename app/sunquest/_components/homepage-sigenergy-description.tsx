@@ -6,10 +6,10 @@ const SigenergDescriotion = () => {
     <section className="py-10">
       <div className="container @container">
         <article className="rounded-lg p-4 bg-gradient-to-br from-slate-300 to stroke-slate-200 shadow-md">
-          <h2 className="text-3xl md:text-4xl font-bold text-teal-800">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-800">
             Sunquest + Sigenergy
           </h2>
-          <p className="text-teal-600 text-md md:text-lg leading-6 max-w-5xl mt-3">
+          <p className="text-slate-600 text-md md:text-lg leading-6 max-w-5xl mt-3">
             Sunquest is the authorized distributor for Sigenergy products in
             South Africa. Sigenergy is leading a new way of producing, storing,
             transferring, and consuming energy. With the{" "}
@@ -20,11 +20,11 @@ const SigenergDescriotion = () => {
             business.
           </p>
         </article>
-        <h2 className="text-3xl md:text-4xl font-bold text-teal-800 mt-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mt-8">
           How can I use Sigenergy Products?
         </h2>
-        <div className="grid grid-cols-1 mt-5 @lg:grid-cols-3 gap-8 text-teal-800">
-          <div className="flex flex-col space-y-2 bg-teal-800 p-4 rounded-md text-white">
+        <div className="grid grid-cols-1 mt-5 @lg:grid-cols-3 gap-8 text-slate-800">
+          <div className="flex flex-col space-y-2 bg-brand p-4 rounded-md text-slate-950">
             <span className="flex gap-1 items-center">
               <h3 className="text-xl font-medium">Storage Only </h3>
 
@@ -40,7 +40,7 @@ const SigenergDescriotion = () => {
               electricity is more expensive.
             </p>
           </div>
-          <div className="flex flex-col space-y-2 bg-teal-800 p-4 rounded-md text-white">
+          <div className="flex flex-col space-y-2 bg-brand p-4 rounded-md text-slate-950">
             <span className="flex gap-1 items-center">
               <h3 className="text-xl font-medium">Solar + Storage</h3>
 
@@ -56,7 +56,7 @@ const SigenergDescriotion = () => {
               system, you can reduce your electricity bill by up to 90%.
             </p>
           </div>
-          <div className="flex flex-col space-y-2 bg-teal-800 p-4 rounded-md text-white">
+          <div className="flex flex-col space-y-2 bg-brand p-4 rounded-md text-slate-950">
             <span className="flex gap-1 items-center">
               <h3 className="text-xl font-medium">Backup/Off-grid</h3>
 

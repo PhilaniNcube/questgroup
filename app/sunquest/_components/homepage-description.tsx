@@ -30,11 +30,11 @@ const HomeEnergySection = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           <div className="col-span-1 lg:col-span-2 flex flex-col justify-center space-y-4 py-6 @container">
-            <h2 className="text-3xl lg:text-4xl font-bold text-teal-800">
+            <h2 className="text-3xl lg:text-4xl font-bold text-brand">
               Home Energy Solutions <br />
               with SIGENERGY
             </h2>
-            <p className="text-teal-600 text-md md:text-lg leading-6">
+            <p className="text-slate-800 text-md md:text-lg leading-6">
               Combining solar, storage and EV charging, Sigenergy offers an
               all-in-one solution that maximizes your energy savings while
               powering your home and EV with clean, renewable energy. The system
@@ -44,14 +44,14 @@ const HomeEnergySection = () => {
             </p>
             <div className="grid grid-cols-2 gap-6 @lg:grid-cols-4 ">
               {cards.map((card, index) => (
-                <Card key={index} className="border-teal-600">
+                <Card key={index} className="border-slate-800">
                   <CardHeader>
-                    <CardTitle className="text-center text-lg md:text-xl text-teal-800">
+                    <CardTitle className="text-center text-lg md:text-xl text-slate-800">
                       {card.title}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex items-center justify-center text-teal-900 w-full h-full">
+                    <div className="flex items-center justify-center text-slate-900 w-full h-full">
                       {card.icon}
                     </div>
                   </CardContent>
@@ -59,7 +59,7 @@ const HomeEnergySection = () => {
               ))}
             </div>
             <Link href="/home">
-              <Button type="button" className="px-5 py-2 bg-teal-800 text-white hover:text-white rounded-full">
+              <Button type="button" className="px-5 py-2 bg-brand text-slate-950 hover:text-white rounded-full">
                 Home Energy Solutions
               </Button>
             </Link>

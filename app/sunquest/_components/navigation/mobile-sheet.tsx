@@ -22,7 +22,7 @@ const MobileSheet = () => {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        <Button className="bg-teal-600">
+        <Button className="bg-brand">
           <MenuIcon className="text-slate-50" size={24} />
         </Button>
       </SheetTrigger>

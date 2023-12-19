@@ -16,7 +16,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/sunquest"
-            className="bg-teal-600 hover:bg-teal-800 text-sm sm:text-lg text-white rounded-full px-4 py-2 font-bold"
+            className="bg-brand hover:bg-teal-800 text-sm sm:text-lg text-white rounded-full px-4 py-2 font-bold"
           >
             Sunquest
           </Link>

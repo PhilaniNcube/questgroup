@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const DesktopNavigation = () => {
   return (
-    <header className="bg-teal-800 shadow-lg hidden lg:block">
+    <header className="bg-black shadow-lg hidden lg:block">
       <div className="container flex justify-between text-white py-3">
         <div className="flex items-center">
           <Link href="/" className="text-lg font-medium">

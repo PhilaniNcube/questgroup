@@ -23,7 +23,7 @@ const HomepageHero = () => {
           <Link href="/quote">
             <Button
               type="button"
-              className="rounded-full bg-white text-teal-800 text-xl font-medium hover:text-white transition-colors"
+              className="rounded-full bg-brand text-white text-xl font-medium hover:text-white transition-colors"
             >
               Get A Quote
             </Button>

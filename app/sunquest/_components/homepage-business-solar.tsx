@@ -19,7 +19,7 @@ const HomepageBusinessSolar = () => {
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <div className="@container bg-gradient-to-b from-teal-800 to-teal-950 rounded-lg p-12 flex flex-col space-y-2">
+          <div className="@container bg-brand rounded-lg p-12 flex flex-col space-y-2">
             <h2 className="text-3xl md:text-4xl text-white font-bold">
               Business Solar Installations
             </h2>
@@ -69,7 +69,7 @@ const HomepageBusinessSolar = () => {
             <Link href="/business" className="mt-2">
               <Button
                 type="button"
-                className="px-5 py-2 bg-teal-800 text-white hover:text-white rounded-full"
+                className="px-5 py-2 bg-slate-800 text-white hover:text-white rounded-full"
               >
                 Business Energy Solutions
               </Button>
