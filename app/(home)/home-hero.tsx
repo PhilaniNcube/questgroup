@@ -18,16 +18,20 @@ const HomeHero = () => {
             width={1920}
             height={1080}
             alt="Irrigation"
-            className="w-full aspect-[4/1] object-cover rounded-lg"
+            className="w-full aspect-[4/2] lg:aspect-[4/1] object-cover rounded-lg"
           />
-          <article className="w-full h-full rounded-lg shadow-lg p-6 flex flex-col gap-x-4 justify-between items-center bg-gradient-to-br from-blue-400 to-blue-600 text-white">
-            <h2 className="text-2xl md:text-3xl font-semibold text-center">
-              Waterquest
-            </h2>
+          <article className="w-full h-full rounded-lg shadow-lg p-6 flex flex-col gap-x-4 justify-between items-center bg-white border border-blue-300">
+            <Image
+              src="/images/logo.png"
+              alt="Waterquest"
+              width={4500}
+              height={947}
+              className="w-48 object-cover"
+            />
             <p className="text-center text-sm leading-6 mt-4">
               Efficient, solar water pumping solutions delivering you more water
             </p>
-            <Button className="bg-black text-blue-600 font-medium mt-4">
+            <Button className="bg-blue-500 text-blue-50 font-medium mt-4">
               See More
             </Button>
           </article>
@@ -57,9 +61,8 @@ const HomeHero = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-sm leading-6 mt-4">
-                  Pumps supplying water to businesses and
-                  communities, it&apos;s crucial to unearth financially viable
-                  solutions.
+                  Pumps supplying water to businesses and communities, it&apos;s
+                  crucial to unearth financially viable solutions.
                 </p>
               </CardContent>
             </Card>
@@ -71,16 +74,20 @@ const HomeHero = () => {
             width={1920}
             height={1080}
             alt="Irrigation"
-            className="w-full aspect-[4/1] object-cover rounded-lg"
+            className="w-full aspect-[4/2] lg:aspect-[4/1] object-cover rounded-lg"
           />
-          <article className="w-full h-full rounded-lg shadow-lg p-6 gap-x-4 flex flex-col justify-between items-center bg-gradient-to-br from-brand to-yellow-600 text-white">
-            <h2 className="text-2xl md:text-3xl font-semibold text-center">
-              Sunquest
-            </h2>
+          <article className="w-full h-full rounded-lg shadow-lg p-6 gap-x-4 flex flex-col justify-between items-center bg-white border border-brand">
+            <Image
+              src="/images/sunquest-logo.png"
+              alt="Waterquest"
+              width={4500}
+              height={947}
+              className="w-48 object-cover"
+            />
             <p className="text-center text-sm leading-6 mt-4">
               Solar Solutions for South African Homes and Businesses
             </p>
-            <Button className="bg-black text-brand font-medium mt-4">
+            <Button className="bg-brand text-black font-medium mt-4">
               See More
             </Button>
           </article>{" "}
