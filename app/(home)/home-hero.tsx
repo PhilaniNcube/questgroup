@@ -11,7 +11,7 @@ const HomeHero = () => {
           Experience the Benefits of Solar Energy
         </h1>
       </div>
-      <div className="grid grid-cols-2 gap-8 py-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-4">
         <Link href="/waterquest" className="flex flex-col space-y-3 relative">
           <Image
             src="/images/sprinklers.jpg"
