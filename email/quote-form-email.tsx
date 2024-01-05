@@ -15,24 +15,26 @@ import {
 } from "@react-email/components";
 
 type QuoteRequestEmailProps = {
-  fullName: string;
+  first_name: string;
+  last_name: string;
   phone: string;
   email: string;
-  property: string;
-  details: string;
+  service: string;
+  message: string;
 };
 
 const QuoteRequestEmail = ({
-  fullName,
+  first_name,
+  last_name,
   phone,
   email,
-  property,
-  details,
+  service,
+  message,
 }: QuoteRequestEmailProps) => {
   return (
     <Html>
       <Head />
-      <Preview>New Contact Form Submission</Preview>
+      <Preview>New Quote Request</Preview>
       <Tailwind
         config={{
           theme: {
@@ -51,15 +53,15 @@ const QuoteRequestEmail = ({
                Quote Request
               </Heading>
               <Text>
-                Name: {fullName}
+                Name: {first_name} {last_name}
               </Text>
               <Text>
                 Phone:  {phone}
               </Text>
               <Text>Email: {email}</Text>
-              <Text>Property: {property}</Text>
+              <Text>Service: {service}</Text>
               <Hr />
-              <Text>Details: {details}</Text>
+              <Text>Message: {message}</Text>
             </Section>
           </Container>
         </Body>

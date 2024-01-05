@@ -22,7 +22,7 @@ const Navbar = () => {
               alt="Waterquest"
               width={4500}
               height={947}
-              className="w-32 lg:w-48 object-cover"
+              className="w-32 lg:w-52 object-cover"
             />
           </Link>
           <Link href="/sunquest" className="px-4 py-2 font-bold">
@@ -31,7 +31,7 @@ const Navbar = () => {
               alt="Waterquest"
               width={4500}
               height={947}
-              className="w-32 lg:w-48 object-cover"
+              className="w-32 lg:w-40 object-cover"
             />
           </Link>
         </nav>

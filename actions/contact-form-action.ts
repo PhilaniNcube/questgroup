@@ -14,8 +14,8 @@ const contactFormAction = async (formData:FormData) => {
   const message = formData.get('message') as string
 
   const sending = await resend.emails.send({
-    from: `Waterquest <dev@waterquest.io>`,
-    to: "darren@waterquest.io",
+    from: `Questgroup <darren@questgroup.co.za>`,
+    to: "darren@questgroup.co.za",
     subject: "Contact Form Submission",
     text: `You have a new contact form submission from ${firstName} ${lastName} - ${email}. Message: ${message}`,
     react: React.createElement(ContactFormEmail, {
