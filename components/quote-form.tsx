@@ -12,6 +12,7 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { quoteFormAction } from "@/actions/quote-request-form-action";
+import SubmitButton from "./submit-button";
 
 export default function QuoteForm() {
   return (
@@ -81,7 +82,6 @@ export default function QuoteForm() {
                 </Select>
               </div>
             </div>
-
             <div className="space-y-2">
               <Label htmlFor="message">Message</Label>
               <Textarea
@@ -92,7 +92,7 @@ export default function QuoteForm() {
                 required
               />
             </div>
-            <Button>Send Request</Button>
+            <SubmitButton />
           </form>
         </div>
       </div>

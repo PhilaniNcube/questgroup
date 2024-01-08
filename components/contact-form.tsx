@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { contactFormAction } from "@/actions/contact-form-action";
+import SubmitButton from "./submit-button";
 
 export default function ContactForm() {
   return (
@@ -66,13 +67,7 @@ export default function ContactForm() {
           </div>
         </CardContent>
         <CardFooter className="flex justify-end">
-          <Button
-            className="hover:bg-green-500 transition duration-200 ease-in-out bg-blue-600"
-            type="submit"
-          >
-            <IconCheckmark className="h-5 w-5" />
-            Submit
-          </Button>
+          <SubmitButton />
         </CardFooter>
       </Card>
     </form>
