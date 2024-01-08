@@ -1,6 +1,23 @@
-"use client";
+// "use client";
 // @ts-ignore
 import { sendGTMEvent } from "@next/third-parties/google";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Thank You",
+  description: "Thank you for your submission! We will be in touch shortly.",
+  keywords:
+    "renewable energy resources, water pumps, solar power, batteries, solar batteries, inverters, borehole pumps",
+};
+
+// export async function generateMetadata() {
+//   return {
+//       title: "Thank You",
+//       description: "Thank you for your submission! We will be in touch shortly.",
+//       keywords:
+//         "renewable energy resources, water pumps, solar power, batteries, solar batteries, inverters, borehole pumps",
+//   };
+// }
 
 import Link from "next/link";
 
@@ -17,7 +34,7 @@ export default function ThankYouPage() {
         <IconHeart className="h-24 w-24 text-red-500 animate-pulse" />
       </div>
       <Link
-        onClick={() => sendGTMEvent({ event: "generate_lead" })}
+        // onClick={() => sendGTMEvent({ event: "generate_lead" })}
         className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
         href="/"
       >
