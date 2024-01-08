@@ -87,6 +87,7 @@ export default function QuoteForm() {
               <Textarea
                 className="min-h-[100px]"
                 id="message"
+                name="message"
                 placeholder="Enter your message"
                 required
               />
