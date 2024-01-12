@@ -92,7 +92,7 @@ const HomeHero = () => {
             </Button>
           </article>{" "}
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Card>
+            <Card >
               <CardHeader>
                 <CardTitle>
                   <h3 className="text-xl font-semibold">Home Solar Power</h3>
