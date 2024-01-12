@@ -7,11 +7,11 @@ const Navbar = () => {
       <div className="container py-3 flex justify-between items-center">
         <Link href="/" className="text-sm sm:text-lg font-medium text-white">
           <Image
-            src="/images/logo-icon.png"
+            src="/images/questgroup-logo-wide.png"
             alt="Questgroup"
-            width={100}
-            height={100}
-            className="w-16 aspect-square"
+            width={1275}
+            height={249}
+            className="w-44 object-cover"
           />
           <p className="sr-only">Questgroup</p>
         </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
               alt="Waterquest"
               width={4500}
               height={947}
-              className="w-32 lg:w-52 object-cover"
+              className="w-32 lg:w-44 object-cover"
             />
           </Link>
           <Link href="/sunquest" className="px-4 py-2 font-bold">
@@ -31,7 +31,7 @@ const Navbar = () => {
               alt="Waterquest"
               width={4500}
               height={947}
-              className="w-32 lg:w-40 object-cover"
+              className="w-32 lg:w-36 object-cover"
             />
           </Link>
         </nav>
