@@ -14,7 +14,7 @@ const DesktopNavigation = () => {
         </div>
         <div className="flex text-black items-center space-x-4">
           <Link href="/sunquest/home">Home Solar</Link>
-          <Link href="/sunquest//business">Business Solar</Link>
+          <Link href="/sunquest/business">Business Solar</Link>
           {/* <Link href="/quote">
             <Button
               type="button"
