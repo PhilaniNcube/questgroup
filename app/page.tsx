@@ -1,11 +1,35 @@
 
 import Link from 'next/link'
 import HomeHero from './(home)/home-hero';
+import Principles from './(home)/questgroup-principles';
+import { Metadata } from 'next';
+import { siteConfig } from "@/config/site";
+
+
+export const metadata: Metadata = {
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  keywords:
+    "renewable energy resources, water pumps, solar power, batteries, solar batteries, inverters, borehole pumps",
+  verification: {
+   google: "0q-lkDFLoCCydacYTBApXQFmXYHFKKLl1KVgP6exwVo"
+  },
+  icons: [
+    {
+      url: "/images/logo-icon.png",
+      href: "/images/logo-icon.png",
+    },
+  ],
+};
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-gradient-to-br from-blue-300 to-fuchsia-200">
       <HomeHero />
+      <Principles />
     </main>
   );
 }

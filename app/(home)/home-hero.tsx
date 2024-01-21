@@ -18,7 +18,7 @@ const HomeHero = () => {
             width={1920}
             height={1080}
             alt="Irrigation"
-            className="w-full aspect-[4/2] lg:aspect-[4/1] object-cover rounded-lg"
+            className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
           />
           <article className="w-full h-full rounded-lg shadow-lg p-6 flex flex-col gap-x-4 justify-between items-center bg-white border border-blue-300">
             <Image
@@ -74,7 +74,7 @@ const HomeHero = () => {
             width={1920}
             height={1080}
             alt="Irrigation"
-            className="w-full aspect-[4/2] lg:aspect-[4/1] object-cover rounded-lg"
+            className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
           />
           <article className="w-full h-full rounded-lg shadow-lg p-6 gap-x-4 flex flex-col justify-between items-center bg-white border border-brand">
             <Image
