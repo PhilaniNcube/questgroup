@@ -28,6 +28,7 @@ const Principles = () => {
           src="/images/illustration.webp"
           width={1456}
           height={816}
+          loading="lazy"
           alt="Illustraction"
           className="w-full aspect-video lg:aspect-[3/1] object-cover object-bottom"
         />
