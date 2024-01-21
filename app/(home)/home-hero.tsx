@@ -14,13 +14,13 @@ const HomeHero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-4">
         <Link href="/waterquest" className="flex flex-col space-y-3 relative">
           <Image
-            src="/images/sprinklers.jpg"
+            src="/images/irrigation.jpg"
             width={1920}
             height={1080}
             alt="Irrigation"
             quality={80}
             loading="lazy"
-            placeholder="blur"
+
             className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
           />
           <article className="w-full h-full rounded-lg shadow-lg p-6 flex flex-col gap-x-4 justify-between items-center bg-white border border-blue-300">
@@ -31,7 +31,7 @@ const HomeHero = () => {
               height={947}
               quality={80}
               loading="lazy"
-              placeholder="blur"
+
               className="w-48 object-cover"
             />
             <p className="text-center text-sm leading-6 mt-4">
