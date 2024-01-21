@@ -5,14 +5,14 @@ import DrinkingWaterHero from "./_components/drinking-water-hero";
 export const metadata: Metadata = {
   title: "Waterquest | Sustainable Drinking Water Solutions with WaterQuest",
   description:
-    "Solar water pumps have broad applications. In agriculture, they can provide irrigation and drinking water for livestock. Residentially, they are useful for circulating pond water and drawing water from wells.",
+    "Take a look at our solar water pump applications for the provision of drinking water",
   keywords:
     "Solar Water Pumps, Solar Powered Pumps, Lorentz Solar Water Pumps, Renewable Energy Solutions, Sustainable Water Pumping, Eco-friendly water pumps, Energy-efficient water pumps",
   robots: "index, follow",
   openGraph: {
     images: "/images/logo-icon.png",
     description:
-      "Solar water pumps have broad applications. In agriculture, they can provide irrigation and drinking water for livestock. Residentially, they are useful for circulating pond water and drawing water from wells.",
+      "Take a look at our solar water pump applications for the provision of drinking water",
     title: "Waterquest | Sustainable Drinking Water Solutions with WaterQuest",
   },
 };

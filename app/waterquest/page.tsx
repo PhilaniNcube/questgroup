@@ -11,9 +11,6 @@ export const metadata: Metadata = {
   keywords:
     "Solar Water Pumps, Solar Powered Pumps, Lorentz Solar Water Pumps, Renewable Energy Solutions, Sustainable Water Pumping, Eco-friendly water pumps, Energy-efficient water pumps",
   robots: "index, follow",
-  verification: {
-    google: "Y2Gt5-pXR2jy_rl-qcK5LTUGtj3DqrJ0LdpUESi6c4g",
-  },
   openGraph: {
     images: "/images/logo-icon.png",
     description:
