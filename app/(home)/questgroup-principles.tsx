@@ -29,6 +29,7 @@ const Principles = () => {
           width={1456}
           height={816}
           loading="lazy"
+          quality={80}
           alt="Illustraction"
           className="w-full aspect-video lg:aspect-[3/1] object-cover object-bottom"
         />
