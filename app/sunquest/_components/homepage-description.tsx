@@ -58,7 +58,7 @@ const HomeEnergySection = () => {
                 </Card>
               ))}
             </div>
-            <Link href="/home">
+            <Link href="/sunquest/home">
               <Button type="button" className="px-5 py-2 bg-brand text-slate-950 hover:text-white rounded-full">
                 Home Energy Solutions
               </Button>

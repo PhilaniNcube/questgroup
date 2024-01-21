@@ -66,7 +66,7 @@ const HomepageBusinessSolar = () => {
                 </CardContent>
               </Card>
             </div>
-            <Link href="/business" className="mt-2">
+            <Link href="/sunquest/business" className="mt-2">
               <Button
                 type="button"
                 className="px-5 py-2 bg-slate-800 text-white hover:text-white rounded-full"
