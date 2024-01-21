@@ -18,6 +18,9 @@ const HomeHero = () => {
             width={1920}
             height={1080}
             alt="Irrigation"
+            quality={80}
+            loading="lazy"
+            placeholder="blur"
             className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
           />
           <article className="w-full h-full rounded-lg shadow-lg p-6 flex flex-col gap-x-4 justify-between items-center bg-white border border-blue-300">
@@ -26,6 +29,9 @@ const HomeHero = () => {
               alt="Waterquest"
               width={4500}
               height={947}
+              quality={80}
+              loading="lazy"
+              placeholder="blur"
               className="w-48 object-cover"
             />
             <p className="text-center text-sm leading-6 mt-4">
@@ -92,10 +98,12 @@ const HomeHero = () => {
             </Button>
           </article>{" "}
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Card >
+            <Card>
               <CardHeader>
                 <CardTitle>
-                  <span className="text-xl font-semibold">Home Solar Power</span>
+                  <span className="text-xl font-semibold">
+                    Home Solar Power
+                  </span>
                 </CardTitle>
               </CardHeader>
               <CardContent>

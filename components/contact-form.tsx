@@ -18,7 +18,7 @@ export default function ContactForm() {
     <form action={contactFormAction}>
       <Card>
         <CardHeader>
-          <CardTitle className="text-blue-600">Contact Us</CardTitle>
+          <h1 className="text-blue-600 text-3xl font-bold">Contact Us</h1>
           <CardDescription>
             Fill out the form below and we&apos;ll get back to you as soon as
             possible.

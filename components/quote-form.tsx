@@ -20,7 +20,7 @@ export default function QuoteForm() {
       <div className="container px-4 md:px-6">
         <div className="space-y-8">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold">Request a Quote</h2>
+            <h1 className="text-3xl font-bold">Request a Quote</h1>
             <p className="text-gray-500 dark:text-gray-400">
               Fill out the form below and we will get back to you as soon as
               possible.
