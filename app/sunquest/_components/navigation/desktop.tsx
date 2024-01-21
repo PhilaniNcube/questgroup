@@ -15,14 +15,6 @@ const DesktopNavigation = () => {
         <div className="flex text-black items-center space-x-4">
           <Link href="/sunquest/home">Home Solar</Link>
           <Link href="/sunquest/business">Business Solar</Link>
-          {/* <Link href="/quote">
-            <Button
-              type="button"
-              className="rounded-full px-6 py-2 bg-white text-teal-800 hover:text-white"
-            >
-              Get a Quote
-            </Button>
-          </Link> */}
         </div>
       </div>
     </header>

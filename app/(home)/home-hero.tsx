@@ -39,9 +39,9 @@ const HomeHero = () => {
             <Card>
               <CardHeader>
                 <CardTitle>
-                  <h3 className="text-xl font-semibold">
+                  <span className="text-xl font-semibold">
                     Residential Solar Pumps
-                  </h3>
+                  </span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -54,9 +54,9 @@ const HomeHero = () => {
             <Card>
               <CardHeader>
                 <CardTitle>
-                  <h3 className="text-xl font-semibold">
+                  <span className="text-xl font-semibold">
                     Commercial Solar Pumps
-                  </h3>
+                  </span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -95,7 +95,7 @@ const HomeHero = () => {
             <Card >
               <CardHeader>
                 <CardTitle>
-                  <h3 className="text-xl font-semibold">Home Solar Power</h3>
+                  <span className="text-xl font-semibold">Home Solar Power</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -108,9 +108,9 @@ const HomeHero = () => {
             <Card>
               <CardHeader>
                 <CardTitle>
-                  <h3 className="text-xl font-semibold">
+                  <span className="text-xl font-semibold">
                     Business Solar Power
-                  </h3>
+                  </span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
