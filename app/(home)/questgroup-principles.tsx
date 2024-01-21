@@ -34,7 +34,7 @@ const Principles = () => {
           className="w-full aspect-video lg:aspect-[3/1] object-cover object-bottom"
         />
         <div className="absolute inset-0 bg-slate-700/40">
-          <div className="container relative py-7 z-50">
+          <div className="container relative py-7 h-full flex justify-center items-center z-50">
             <h3 className="text-center text-2xl lg:text-5xl font-bold text-white">
               Back Up Your Power With Solar Energy
             </h3>
