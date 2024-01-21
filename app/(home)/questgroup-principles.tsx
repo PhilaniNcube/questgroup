@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+import Image from "next/image"
 
 const solutions = [
   {
@@ -21,15 +22,26 @@ const solutions = [
 
 const Principles = () => {
   return (
-    <section className="container">
-      <div className="py-6">
-        <h2 className="text-2xl lg:text-5xl font-bold text-center pb-4">Why Use Questgroup</h2>
+    <section className="">
+      <Image
+        src="/images/illustration.webp"
+        width={1456}
+        height={816}
+        alt="Illustraction"
+        className="w-full aspect-video lg:aspect-[3/1] object-cover object-bottom"
+      />
+      <div className="py-6 container">
+        <h2 className="text-2xl lg:text-5xl font-bold text-center pb-4">
+          Why Use Questgroup
+        </h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {solutions.map((solution) => (
             <Card key={solution.title} className="py-4">
               <CardContent>
                 <CardTitle>{solution.title}</CardTitle>
-                <CardDescription className="my-2 text-slate-700 font-semibold">{solution.description}</CardDescription>
+                <CardDescription className="my-2 text-slate-700 font-semibold">
+                  {solution.description}
+                </CardDescription>
               </CardContent>
             </Card>
           ))}
