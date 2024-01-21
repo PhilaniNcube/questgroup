@@ -23,13 +23,23 @@ const solutions = [
 const Principles = () => {
   return (
     <section className="">
-      <Image
-        src="/images/illustration.webp"
-        width={1456}
-        height={816}
-        alt="Illustraction"
-        className="w-full aspect-video lg:aspect-[3/1] object-cover object-bottom"
-      />
+      <div className="relative">
+        <Image
+          src="/images/illustration.webp"
+          width={1456}
+          height={816}
+          alt="Illustraction"
+          className="w-full aspect-video lg:aspect-[3/1] object-cover object-bottom"
+        />
+        <div className="absolute inset-0 bg-slate-700/40">
+          <div className="container relative py-7 z-50">
+            <h3 className="text-center text-2xl lg:text-5xl font-bold text-white">
+              Back Up Your Power With Solar Energy
+            </h3>
+          </div>
+        </div>
+      </div>
+
       <div className="py-6 container">
         <h2 className="text-2xl lg:text-5xl font-bold text-center pb-4">
           Why Use Questgroup
