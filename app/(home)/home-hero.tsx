@@ -6,7 +6,6 @@ import Link from "next/link";
 const HomeHero = () => {
   return (
     <section className=" relative">
-
       <div className="container">
         <div className=" w-full flex justify-center items-center py-12 px-10 ">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[6rem] font-semibold md:font-bold text-center">
@@ -16,9 +15,9 @@ const HomeHero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-4">
           <Link href="/waterquest" className="flex flex-col space-y-3 relative">
             <Image
-              src="/images/irrigation.jpg"
-              width={1920}
-              height={1080}
+              src="/images/irrigation.webp"
+              width={1280}
+              height={853}
               alt="Irrigation"
               quality={80}
               loading="lazy"
@@ -26,10 +25,10 @@ const HomeHero = () => {
             />
             <article className="w-full h-full rounded-lg shadow-lg p-6 flex flex-col gap-x-4 justify-between items-center bg-white border border-blue-300">
               <Image
-                src="/images/logo.png"
+                src="/images/waterquest.webp"
                 alt="Waterquest"
-                width={4500}
-                height={947}
+                width={450}
+                height={70}
                 quality={80}
                 loading="lazy"
                 className="w-48 object-cover"
@@ -77,18 +76,22 @@ const HomeHero = () => {
           </Link>
           <Link href="/sunquest" className="flex flex-col space-y-3">
             <Image
-              src="/images/installations.jpg"
+              src="/images/installations.webp"
               width={1920}
               height={1080}
-              alt="Irrigation"
+              alt="Installations"
+              quality={80}
+              loading="lazy"
               className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
             />
             <article className="w-full h-full rounded-lg shadow-lg p-6 gap-x-4 flex flex-col justify-between items-center bg-white border border-brand">
               <Image
-                src="/images/sunquest-logo.png"
-                alt="Waterquest"
-                width={4500}
-                height={947}
+                src="/images/sunquest.webp"
+                alt="Sunquest"
+                width={450}
+                height={70}
+                quality={80}
+                loading="lazy"
                 className="w-48 object-cover"
               />
               <p className="text-center text-sm leading-6 mt-4">
