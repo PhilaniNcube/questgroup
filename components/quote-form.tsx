@@ -77,6 +77,7 @@ export default function QuoteForm() {
                   <SelectContent position="popper">
                     <SelectItem value="Water Pumps">Water Pumps</SelectItem>
                     <SelectItem value="Solar Power">Solar Power</SelectItem>
+                    <SelectItem value="Electrical Services">Electrical Services</SelectItem>
                     <SelectItem value="Other">Other</SelectItem>
                   </SelectContent>
                 </Select>
