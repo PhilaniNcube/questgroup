@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Mobile from "./mobile";
 
 const Navbar = () => {
   return (
@@ -15,8 +16,10 @@ const Navbar = () => {
           />
           <p className="sr-only">Questgroup</p>
         </Link>
-        <nav className="flex items-center">
-
+        <div className="lg:hidden block">
+          <Mobile />
+        </div>
+        <nav className="lg:flex items-center hidden ">
           <Link href="/sunquest" className="px-2 py-2 font-bold">
             <Image
               src="/images/sunquest.webp"

@@ -12,7 +12,7 @@ const HomeHero = () => {
             Experience the Benefits of Solar Energy
           </h1>
         </div>{" "}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-4">
+        <div className="grid grid-cols-1  lg:grid-cols-3  gap-8 py-4">
           <Link href="/waterquest" className="flex flex-col space-y-3 relative">
             <Image
               src="/images/irrigation.webp"
@@ -33,15 +33,15 @@ const HomeHero = () => {
                 loading="lazy"
                 className="w-48 object-cover"
               />
-              <p className="text-center text-sm leading-6 mt-4">
+              <p className="text-center text-sm leading-6 ">
                 Efficient, solar water pumping solutions delivering you more
                 water
               </p>
-              <Button className="bg-blue-500 text-blue-50 font-medium mt-4">
+              <Button className="bg-blue-500 text-blue-50 font-medium ">
                 See More
               </Button>
             </article>
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="w-full grid grid-cols-1  gap-4">
               <Card>
                 <CardHeader>
                   <CardTitle>
@@ -51,7 +51,7 @@ const HomeHero = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm leading-6 mt-4">
+                  <p className="text-sm leading-6  line-clamp-5">
                     We offer a range of solar water pumps for residential use.
                     From pool pumps to borehole pumps.
                   </p>
@@ -66,7 +66,7 @@ const HomeHero = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm leading-6 mt-4">
+                  <p className="text-sm leading-6  line-clamp-5">
                     Pumps supplying water to businesses and communities,
                     it&apos;s crucial to unearth financially viable solutions.
                   </p>
@@ -74,6 +74,7 @@ const HomeHero = () => {
               </Card>
             </div>
           </Link>
+
           <Link href="/sunquest" className="flex flex-col space-y-3">
             <Image
               src="/images/installations.webp"
@@ -94,14 +95,14 @@ const HomeHero = () => {
                 loading="lazy"
                 className="w-48 object-cover"
               />
-              <p className="text-center text-sm leading-6 mt-4">
+              <p className="text-center text-sm leading-6 ">
                 Solar Solutions for South African Homes and Businesses
               </p>
-              <Button className="bg-brand text-black font-medium mt-4">
+              <Button className="bg-brand text-black font-medium ">
                 See More
               </Button>
             </article>{" "}
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="w-full grid grid-cols-1  gap-4">
               <Card>
                 <CardHeader>
                   <CardTitle>
@@ -111,7 +112,7 @@ const HomeHero = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm leading-6 mt-4">
+                  <p className="text-sm leading-6 ">
                     Produce, store and use green energy for your home with the
                     Sigenergy group of products.
                   </p>
@@ -126,9 +127,69 @@ const HomeHero = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm leading-6 mt-4">
+                  <p className="text-sm leading-6 ">
                     Flexible & Modular Commercial and Industrial Energy Storage
                     Solutions
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </Link>
+
+          <Link href="/electraquest" className="flex flex-col space-y-3">
+            <Image
+              src="/images/electrical.webp"
+              width={1920}
+              height={1080}
+              alt="Installations"
+              quality={80}
+              loading="lazy"
+              className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
+            />
+            <article className="w-full h-full rounded-lg shadow-lg p-6 gap-x-4 flex flex-col justify-between items-center bg-white border border-brand">
+              <Image
+                src="/images/electraquest.webp"
+                alt="Sunquest"
+                width={450}
+                height={70}
+                quality={80}
+                loading="lazy"
+                className="w-48 object-cover"
+              />
+              <p className="text-center text-sm leading-6 ">
+                Professional Electrical Services & Maintenance
+              </p>
+              <Button className="bg-brand text-black font-medium ">
+                See More
+              </Button>
+            </article>{" "}
+            <div className="w-full grid grid-cols-1  gap-4">
+              <Card>
+                <CardHeader>
+                  <CardTitle>
+                    <span className="text-xl font-semibold">
+                      Electrical Services
+                    </span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm leading-6 ">
+                    Discover our top-quality electrical services for commercial
+                    and residential buildings
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>
+                    <span className="text-xl font-semibold">
+                      Maintenance Services
+                    </span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm leading-6 ">
+                    Ensure the longevity and safety of your electrical systems
                   </p>
                 </CardContent>
               </Card>
