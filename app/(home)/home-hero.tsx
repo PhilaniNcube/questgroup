@@ -103,7 +103,7 @@ const HomeHero = () => {
                 className="w-48 object-cover"
               />
               <p className="text-center text-sm leading-6 ">
-                Solar Solutions for South African Homes and Businesses
+                Solar Solutions for Homes and Businesses
               </p>
               <Button className="bg-brand text-black font-medium ">
                 See More
