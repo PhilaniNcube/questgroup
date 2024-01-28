@@ -13,7 +13,11 @@ const HomeHero = () => {
           </h1>
         </div>{" "}
         <div className="grid grid-cols-1  lg:grid-cols-3  gap-8 py-4">
-          <Link href="/waterquest" className="flex flex-col space-y-3 relative">
+          <Link
+            prefetch={false}
+            href="/waterquest"
+            className="flex flex-col space-y-3 relative"
+          >
             <Image
               src="/images/irrigation.webp"
               width={1280}
@@ -75,7 +79,11 @@ const HomeHero = () => {
             </div>
           </Link>
 
-          <Link href="/sunquest" className="flex flex-col space-y-3">
+          <Link
+            href="/sunquest"
+            className="flex flex-col space-y-3"
+            prefetch={false}
+          >
             <Image
               src="/images/installations.webp"
               width={1920}
@@ -136,7 +144,11 @@ const HomeHero = () => {
             </div>
           </Link>
 
-          <Link href="/electraquest" className="flex flex-col space-y-3">
+          <Link
+            href="/electraquest"
+            className="flex flex-col space-y-3"
+            prefetch={false}
+          >
             <Image
               src="/images/electrical.webp"
               width={1920}
@@ -146,7 +158,7 @@ const HomeHero = () => {
               loading="lazy"
               className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
             />
-            <article className="w-full h-full rounded-lg shadow-lg p-6 gap-x-4 flex flex-col justify-between items-center bg-white border border-brand">
+            <article className="w-full h-full rounded-lg shadow-lg p-6 gap-x-4 flex flex-col justify-between items-center bg-white border border-yellow-600">
               <Image
                 src="/images/electraquest.webp"
                 alt="Sunquest"
@@ -159,7 +171,7 @@ const HomeHero = () => {
               <p className="text-center text-sm leading-6 ">
                 Professional Electrical Services & Maintenance
               </p>
-              <Button className="bg-brand text-black font-medium ">
+              <Button className="bg-yellow-600 text-black font-medium ">
                 See More
               </Button>
             </article>{" "}
