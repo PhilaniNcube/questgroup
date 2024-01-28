@@ -5,6 +5,7 @@ import Navbar from '@/components/navigation/navbar'
 import { siteConfig } from '@/config/site'
 
 import { GoogleTagManager } from "@next/third-parties/google";
+import Footer from '@/components/navigation/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -37,6 +38,7 @@ export default function RootLayout({
         <GoogleTagManager
           gtmId="GTM-59P9T94T"
         />
+        <Footer />
       </body>
     </html>
   );

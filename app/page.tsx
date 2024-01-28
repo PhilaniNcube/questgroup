@@ -4,6 +4,7 @@ import HomeHero from './(home)/home-hero';
 import Principles from './(home)/questgroup-principles';
 import { Metadata } from 'next';
 import { siteConfig } from "@/config/site";
+import Reasons from './(home)/reasons';
 
 
 export const metadata: Metadata = {
@@ -30,6 +31,7 @@ export default function Home() {
     <main className="bg-gradient-to-br from-blue-300 to-fuchsia-200">
       <HomeHero />
       <Principles />
+      <Reasons />
     </main>
   );
 }
