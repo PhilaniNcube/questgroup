@@ -19,9 +19,9 @@ const HomeHero = () => {
             className="flex flex-col space-y-3 relative"
           >
             <Image
-              src="/images/irrigation.webp"
-              width={1280}
-              height={853}
+              src="/images/irrigation_small.webp"
+              width={900}
+              height={600}
               alt="Irrigation"
               quality={80}
               loading="lazy"
@@ -85,9 +85,9 @@ const HomeHero = () => {
             prefetch={false}
           >
             <Image
-              src="/images/installations.webp"
-              width={1920}
-              height={1080}
+              src="/images/installations_small.webp"
+              width={900}
+              height={600}
               alt="Installations"
               quality={80}
               loading="lazy"
@@ -150,9 +150,9 @@ const HomeHero = () => {
             prefetch={false}
           >
             <Image
-              src="/images/electrical.webp"
-              width={1920}
-              height={1080}
+              src="/images/electrical_small.webp"
+              width={900}
+              height={600}
               alt="Installations"
               quality={80}
               loading="lazy"
