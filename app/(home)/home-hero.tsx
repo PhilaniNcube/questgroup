@@ -23,8 +23,8 @@ const HomeHero = () => {
               width={900}
               height={600}
               alt="Irrigation"
+              priority={true}
               quality={80}
-              loading="lazy"
               className="w-full aspect-[4/2] lg:aspect-[5/2] object-cover rounded-lg"
             />
             <article className="w-full h-full rounded-lg shadow-lg p-6 flex flex-col gap-x-4 justify-between items-center bg-white border border-blue-300">
@@ -34,7 +34,7 @@ const HomeHero = () => {
                 width={450}
                 height={70}
                 quality={80}
-                loading="lazy"
+                priority={true}
                 className="w-48 object-cover"
               />
               <p className="text-center text-sm leading-6 ">
