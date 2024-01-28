@@ -38,8 +38,7 @@ const HomeHero = () => {
                 className="w-48 object-cover"
               />
               <p className="text-center text-sm leading-6 ">
-                Efficient, solar water pumping solutions delivering you more
-                water
+                Efficient, solar water pumping solutions
               </p>
               <Button className="bg-blue-500 text-blue-50 font-medium ">
                 See More
