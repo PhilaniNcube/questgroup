@@ -19,9 +19,17 @@ export const metadata: Metadata = {
     google: "0q-lkDFLoCCydacYTBApXQFmXYHFKKLl1KVgP6exwVo",
   },
   openGraph: {
-    images: "/images/opengraph.png",
+    images: [
+      {
+        url: "https://www.questgroup.co.za/images/opengraph.png",
+        width: 1882,
+        height: 885,
+      },
+    ],
     description: "Renewable Solar Energy Solutions.",
     title: "Questgroup | Renewable Solar Energy Solutions.",
+    countryName: "South Africa",
+    url: "https://www.questgroup.co.za",
   },
   twitter: {
     site: "@questgroup_",
