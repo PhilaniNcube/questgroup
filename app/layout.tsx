@@ -17,6 +17,19 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords:
     "renewable energy resources, water pumps, solar power, batteries, solar batteries, inverters, borehole pumps",
+  openGraph: {
+    images: [
+      {
+        url: "https://www.questgroup.co.za/images/opengraph.png",
+        width: 1882,
+        height: 885,
+      },
+    ],
+    description: "Renewable Solar Energy Solutions.",
+    title: "Questgroup | Renewable Solar Energy Solutions.",
+    countryName: "South Africa",
+    url: "https://www.questgroup.co.za",
+  },
   icons: [
     {
       url: "/images/logo-icon.png",
