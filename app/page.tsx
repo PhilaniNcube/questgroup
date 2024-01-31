@@ -16,7 +16,17 @@ export const metadata: Metadata = {
   keywords:
     "renewable energy resources, water pumps, solar power, batteries, solar batteries, inverters, borehole pumps",
   verification: {
-   google: "0q-lkDFLoCCydacYTBApXQFmXYHFKKLl1KVgP6exwVo"
+    google: "0q-lkDFLoCCydacYTBApXQFmXYHFKKLl1KVgP6exwVo",
+  },
+  openGraph: {
+    images: "/images/opengraph.png",
+    description: "Renewable Solar Energy Solutions.",
+    title: "Questgroup | Renewable Solar Energy Solutions.",
+  },
+  twitter: {
+    site: "@questgroup_",
+    card: "summary_large_image",
+    images: "/images/opengraph.png",
   },
   icons: [
     {
