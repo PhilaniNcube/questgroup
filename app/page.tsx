@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-br from-blue-300 to-fuchsia-200">
+    <main className="bg-gradient-to-r from-teal-700 to-emerald-600">
       <HomeHero />
       <Principles />
       <Reasons />
