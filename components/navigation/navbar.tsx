@@ -12,7 +12,7 @@ const Navbar = () => {
 							alt="Questgroup"
 							width={1275}
 							height={249}
-							className="w-32 md:w-44 object-cover"
+							className="w-32 md:w-56 object-cover"
 						/>
 						<p className="sr-only">Questgroup</p>
 					</Link>
