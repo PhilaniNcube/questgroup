@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import HomeHero from './(home)/home-hero';
 import Principles from './(home)/questgroup-principles';
-import { Metadata } from 'next';
+import  type { Metadata } from 'next';
 import { siteConfig } from "@/config/site";
 import Reasons from './(home)/reasons';
 
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-r from-teal-700 to-emerald-600">
+    <main className="">
       <HomeHero />
       <Principles />
       <Reasons />
