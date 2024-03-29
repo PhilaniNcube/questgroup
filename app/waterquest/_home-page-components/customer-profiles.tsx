@@ -43,69 +43,70 @@ const CustomerProfiles = () => {
         );
 
 
+          // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
           useEffect(() => {
             if (!autoSlide) return;
             const slideInterval = setInterval(next, autoSlideInterval);
             return () => clearInterval(slideInterval);
-          }, []);
+          }, [autoSlide]);
 
   return (
-    <section className="py-8 relative container ">
-      <h2 className="text-4xl font-semibold text-center text-blue-500 lg:text-5xl">What Clients Say?</h2>
-      <div className=" @container flex mx-auto flex-row flex-nowrap overflow-hidden w-full min-h-[250px]  h-[800px] lg:h-[600px] lg:w-[900px]">
-        <motion.div
-          className={`relative mx-auto flex justify-center w-full lg:w-[900px] min-h-[300px] h-full items-center overflw-hidden`}
-        >
-          <AnimatePresence>
-            <motion.div
-              key={currentSlideIndex}
-              initial={{ x: "100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "-100%" }}
-              transition={{ duration: 1 }}
-              className="flex flex-col lg:flex-row w-full lg:w-[900px] min-h-[300px]  absolute h-full lg:h-[500px] px-5"
-            >
-              <div className="relative w-full flex flex-col h-full justify-center rounded-md overflow-hidden">
-                <div className="absolute z-10 inset-0 bg-black/50 h-full">
-                  <div className="w-full flex flex-col justify-center h-full p-10 text-white">
-                    <h3 className="text-2xl font-semibold">
-                      {testimonials[currentSlideIndex].title}
-                    </h3>
-                    <p className="w-full text-sm  my-3">
-                      {testimonials[currentSlideIndex].description}
-                    </p>
-                  </div>
-                </div>
+			<section className="py-8 relative container ">
+				<h2 className="text-4xl font-semibold text-center text-blue-500 lg:text-5xl">
+					What Clients Say?
+				</h2>
+				<div className=" @container flex mx-auto flex-row flex-nowrap overflow-hidden w-full min-h-[250px]  h-[800px] lg:h-[600px] lg:w-[900px]">
+					<motion.div className="relative mx-auto flex justify-center w-full lg:w-[900px] min-h-[300px] h-full items-center overflw-hidden">
+						<AnimatePresence>
+							<motion.div
+								key={currentSlideIndex}
+								initial={{ x: "100%" }}
+								animate={{ x: 0 }}
+								exit={{ x: "-100%" }}
+								transition={{ duration: 1 }}
+								className="flex flex-col lg:flex-row w-full lg:w-[900px] min-h-[300px]  absolute h-full lg:h-[500px] px-5"
+							>
+								<div className="relative w-full flex flex-col h-full justify-center rounded-md overflow-hidden">
+									<div className="absolute z-10 inset-0 bg-black/50 h-full">
+										<div className="w-full flex flex-col justify-center h-full p-10 text-white">
+											<h3 className="text-2xl font-semibold">
+												{testimonials[currentSlideIndex].title}
+											</h3>
+											<p className="w-full text-sm  my-3">
+												{testimonials[currentSlideIndex].description}
+											</p>
+										</div>
+									</div>
 
-                <Image
-                  src={testimonials[currentSlideIndex].image}
-                  width={1000}
-                  height={1000}
-                  alt={testimonials[currentSlideIndex].title}
-                  className="object-cover w-full h-full z-0"
-                />
-              </div>
-            </motion.div>
-          </AnimatePresence>
-        </motion.div>
-      </div>
-      <div className="absolute inset-0 flex justify-between items-center">
-        <Button
-          onClick={prev}
-          variant="ghost"
-          className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
-        >
-          <MoveLeft className="w-8 h-8 text-blue-500" />
-        </Button>
-        <Button
-          onClick={next}
-          variant="ghost"
-          className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
-        >
-          <MoveRight className="w-8 h-8 text-blue-500" />
-        </Button>
-      </div>
-    </section>
-  );
+									<Image
+										src={testimonials[currentSlideIndex].image}
+										width={1000}
+										height={1000}
+										alt={testimonials[currentSlideIndex].title}
+										className="object-cover w-full h-full z-0"
+									/>
+								</div>
+							</motion.div>
+						</AnimatePresence>
+					</motion.div>
+				</div>
+				<div className="absolute inset-0 flex justify-between items-center">
+					<Button
+						onClick={prev}
+						variant="ghost"
+						className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+					>
+						<MoveLeft className="w-8 h-8 text-blue-500" />
+					</Button>
+					<Button
+						onClick={next}
+						variant="ghost"
+						className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+					>
+						<MoveRight className="w-8 h-8 text-blue-500" />
+					</Button>
+				</div>
+			</section>
+		);
 };
 export default CustomerProfiles;

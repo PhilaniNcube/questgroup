@@ -1,8 +1,9 @@
 import HomePageHero from "./_home-page-components/home-page-hero";
 import Solutions from "./_home-page-components/home-page-solutions";
 import CustomerProfiles from "./_home-page-components/customer-profiles";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import Head from "next/head";
+import CaseStudies from "./_home-page-components/case-studies";
 
 export const metadata: Metadata = {
   title: "Waterquest | Your Solar Powered Pump Solution",
@@ -33,6 +34,7 @@ export default function Component() {
       <main className="">
         <HomePageHero />
         <Solutions />
+        <CaseStudies />
         <CustomerProfiles />
       </main>
     </>
