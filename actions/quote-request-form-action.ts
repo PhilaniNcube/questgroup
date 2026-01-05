@@ -7,9 +7,9 @@ import React from 'react';
 import { Resend } from 'resend';
 
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 const quoteFormAction = async (formData:FormData) => {
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   const first_name = formData.get('first_name') as string
   const last_name = formData.get('last_name') as string

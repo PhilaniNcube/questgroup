@@ -4,9 +4,9 @@ import { redirect } from 'next/navigation';
 import React from 'react';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 const contactFormAction = async (formData:FormData) => {
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   const firstName = formData.get('first-name') as string
   const lastName = formData.get('last-name') as string
