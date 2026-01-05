@@ -26,7 +26,7 @@ const quoteFormAction = async (formData:FormData) => {
     phone: phone,
     email: email,
     message: message,
-  }) as React.ReactElement)
+  }) as React.ReactElement<any>)
 
   const sending = await resend.emails.send({
     from: `Questgroup <darren@questgroup.co.za>`,

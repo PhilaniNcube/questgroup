@@ -124,7 +124,9 @@ const DesktopNav = () => {
                   )}
                 >
                   <SolutionsMenu
-                    ref={(element) => (refs.current[1] = element)}
+                    ref={element => {
+                      (refs.current[1] = element);
+                    }}
                   />
                 </div>
                 <div
@@ -136,7 +138,9 @@ const DesktopNav = () => {
                   )}
                 >
                   <ApplicationsMenu
-                    ref={(element) => (refs.current[2] = element)}
+                    ref={element => {
+                      (refs.current[2] = element);
+                    }}
                   />
                 </div>
               </div>
